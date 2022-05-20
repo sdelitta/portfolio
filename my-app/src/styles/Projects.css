@@ -1,0 +1,128 @@
+.projects-container {
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    /* align-items: center; */
+    /* justify-content: center; */
+    margin: 120px;
+    border-radius: 30px;
+    max-width: 80em;
+    min-width: 80px;
+    background-color: rgb(12, 12, 69);
+    color: aquamarine;
+    box-shadow:8px 8px 5px rgba(0, 0, 0, 0.454);
+}
+
+.projects-title {
+    background-color: rgb(74, 10, 74);
+    text-shadow: 4px 4.5px rgba(0, 0, 0, 0.269);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 100%;
+    letter-spacing: 3px;
+    box-shadow:8px 8px 5px rgba(0, 0, 0, 0.454);
+}
+
+.projects-content {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    letter-spacing: 2px;
+    margin-bottom: 3vh;
+    margin-top: 3vh;
+    margin-left: 1vw;
+    max-height: 30em;
+    
+}
+
+.project-name {
+    color: rgb(118, 16, 118);
+    text-shadow: 4px 4.5px rgba(0, 0, 0, 0.269);
+    margin-bottom: -15px;
+    margin-top: -1vh;
+}
+
+.tech {
+    margin-top: -3vh;
+    color: rgb(187, 239, 239);
+}
+
+h6 {
+    margin-top: 3vh;
+}
+
+.projects1-img {
+    display: flex;
+    align-items: flex-start;
+    background-color: black;
+    box-shadow:8px 8px 5px rgba(0, 0, 0, 0.454);
+    background-image: url('../assets/gettyimages-1310156391.webp');
+    border-radius: 4px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 25vw;
+    width: 25vw;
+    min-height: 200px;
+    min-width: 300px;
+    margin: 30px;
+}
+
+.projects1-details {
+    margin-left: 15vw;
+    margin-right: 7vw;
+}
+
+.projects2-img {
+    display: flex;
+    align-items: flex-start;
+    background-color: black;
+    box-shadow:8px 8px 5px rgba(0, 0, 0, 0.454);
+    background-image: url('../assets/Codr1.jpeg');
+    border-radius: 4px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 25vw;
+    width: 25vw;
+    min-height: 200px;
+    min-width: 300px;
+    margin: 30px;
+}
+
+.projects2-details {
+    margin-left: 15vw;
+    margin-right: 7vw;
+}
+
+.projects3-img {
+    display: flex;
+    align-items: flex-start;
+    background-color: black;
+    box-shadow:8px 8px 5px rgba(0, 0, 0, 0.454);
+    background-image: url('../assets/Vinyls.jpeg');
+    border-radius: 4px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 25vw;
+    width: 25vw;
+    min-height: 200px;
+    min-width: 300px;
+    margin: 30px;
+}
+
+.projects3-details {
+    margin-left: 15vw;
+    margin-right: 7vw;
+}
+
+@media (max-width: 70em) {
+    .projects-content {
+        flex-direction: column;
+    }
+    .projects3-details, .projects2-details, .projects1-details {
+        margin-left: 0vw;
+        margin-right: 0vw;
+    }
+}

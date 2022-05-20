@@ -1,0 +1,46 @@
+.about {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 170px;
+    border-radius: 30px;
+    max-width: 80em;
+    min-width: 80px;
+    background-color: rgb(12, 12, 69);
+    color: aquamarine;
+    box-shadow:8px 8px 5px rgba(0, 0, 0, 0.454);
+}
+
+.about-title {
+    background-color: rgb(74, 10, 74);;
+    text-shadow: 4px 4.5px rgba(0, 0, 0, 0.269);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 100%;
+    letter-spacing: 3px;
+    box-shadow:8px 8px 5px rgba(0, 0, 0, 0.454);
+}
+
+.about-content {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 80vh;
+    letter-spacing: 2px;
+}
+
+.headshot {
+    background-color: black;
+    box-shadow:8px 8px 5px rgba(0, 0, 0, 0.454);
+    background-image: url('../assets/HeadShot.jpeg');
+    border-radius: 4px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 25vw;
+    width: 25vw;
+    min-height: 200px;
+    min-width: 200px;   
+}

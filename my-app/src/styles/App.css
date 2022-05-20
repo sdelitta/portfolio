@@ -1,0 +1,108 @@
+body {
+  background-color: teal;
+  display: flex;
+  flex-direction: column;
+  font-size: calc(10px + 2vmin);
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  max-height: 5vh;
+  padding-top: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+a {
+  color: rgb(118, 16, 118);;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.link-title {
+  font-size: 22px;
+}
+
+form {
+  padding: 10px;
+  margin: 30px;
+  background-color: rgb(255, 166, 0);
+  border-radius: 17px;
+  box-shadow:5px 4px rgba(0, 0, 0, 0.454);
+  /* text-shadow: 1px 1px black; */
+  font-size: calc(10px + 2vmin);
+  max-width: 50vh;
+}
+
+.add-form {
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction: column;
+}
+
+.addshelter-form {
+  background-color: rgb(111, 25, 115);
+}
+
+.form-footer {
+  padding-bottom: 30px;
+  max-height: 10px;
+}
+
+label {
+  font-size: 2.5vh;
+}
+
+input {
+  margin: 5px;
+  padding: 10px;
+}
+
+button {
+  box-shadow:2px 2px rgba(0, 0, 0, 0.454);
+  border-radius: 4px;
+}
+
+.submit-button {
+  padding: 5px;
+  font-size: 32px;
+}
+
+.animal-photo img{
+  height: 25vw;
+  width: auto;
+  margin: auto;
+  border-radius: 10px;
+  margin: 5vh;
+}
+
+button:active {
+  transform: scale(0.98);
+  box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+}

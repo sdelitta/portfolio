@@ -1,0 +1,30 @@
+.language-container {
+    display:flex;
+    flex-direction: column;
+    margin: 150px;
+    border-radius: 30px;
+    max-width: 80em;
+    min-width: 80px;
+    background-color: rgb(12, 12, 69);
+    color: aquamarine;
+    box-shadow:8px 8px 5px rgba(0, 0, 0, 0.454);
+}
+
+.language-title {
+    background-color: rgb(74, 10, 74);
+    text-shadow: 4px 4.5px rgba(0, 0, 0, 0.269);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 100%;
+    letter-spacing: 3px;
+    box-shadow:8px 8px 5px rgba(0, 0, 0, 0.454);
+}
+
+.language-list {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-right: 40px;
+    flex-wrap: wrap;
+}

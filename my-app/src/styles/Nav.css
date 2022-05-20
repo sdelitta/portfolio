@@ -1,0 +1,64 @@
+Link {
+    text-decoration: none;
+    color: purple;
+}
+
+header {
+    font-size: 21px;
+    background: white;
+    width: 100%;
+    /* box-shadow:8px 8px 5px rgba(0, 0, 0, 0.454); */
+    /* box-shadow:-8px 12px 7px rgba(0, 0, 0, 0.454); */
+}
+
+.title{
+    color: rgb(120, 20, 120);
+    text-shadow: 1px 1.5px rgba(0, 0, 0, 0.269);
+    margin-top: 12vh;
+    font-size: 1.3em;
+    font-weight: 300;
+    letter-spacing: 1px;
+    /* background-image: url('../assets/header-background-01.png'); */
+    background-image: linear-gradient(rgb(255, 255, 255), teal);
+    background-repeat: no-repeat;
+    /* background-position: center; */
+    background-size: cover;
+    min-height: 180px;
+    min-width: 200px;
+    
+}
+
+/* nav {
+    flex: 80%;
+    display: flex;
+    justify-content: flex-end;
+    padding-left: 20px;
+    align-items: center;
+}
+
+nav a,
+nav h3 {
+    text-decoration: none;
+    text-transform: uppercase;
+    margin: auto .5em;
+    color: rgb(63, 4, 103);
+    padding: 5px 10px;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+nav a:hover{
+    text-decoration: line-through;
+}
+
+nav .rightside {
+    justify-content: flex-end;
+}
+  
+.rightsideLink {
+    color:#fff;
+    background-color: rgb(0, 0, 0, 0);
+    margin: 20px auto;
+    text-align: center;
+    font-size: 24px;
+} */
